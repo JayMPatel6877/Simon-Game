@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: #011F3F;
+}
+
+.title{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 3rem;
+    color: #FEF2BF;
+    margin: 5%;
+}
+
+.button{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 25px;
+}
+
+.row{
+    display: block;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.wrong{
+    background-color: red;
+}
+
